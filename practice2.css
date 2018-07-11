@@ -1,0 +1,58 @@
+.container {
+    border: 2px solid blueviolet;
+    width: 300px;
+    height: 450px;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    top: 40px;
+    left: 100px;
+}
+
+.name{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: chocolate;
+}
+
+.image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about{
+    border: 2px solid salmon;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 14px;
+}
+
+.containercomment {
+    border: 2px solid blueviolet;
+    width: 700px;
+    height: 450px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 500px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.about2{
+    border: 2px solid aqua;
+    text-align: justify;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.commentbox{
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+}
+
+button{
+    align-items: center
+}

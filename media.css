@@ -1,0 +1,39 @@
+
+@media (min-width: 200px){
+    body{
+        background: yellow;
+    }
+
+    .box{
+        border: 2px solid brown;
+        margin: 4px auto;
+        height: 200px;
+        width: 180px;
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background: red;
+    }
+
+    .box{
+        border: 2px solid forestgreen;
+        height: 200px;
+        width: 500px;
+        margin: 50px auto;
+    }
+}
+
+@media (min-width: 1200px){
+    body{
+        background: cyan;
+    }
+
+    .box{
+        border: 2px solid blue;
+        height: 200px;
+        width: 1000px;
+        margin: 100px auto;
+    }
+}
